@@ -35,13 +35,22 @@
       </Style>
       <Format>image/jpeg</Format>
       <TileMatrixSetLink>
-        <TileMatrixSet>z11to19</TileMatrixSet>
+        <TileMatrixSet>z10to13</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpeg" resourceType="tile" template="https://hzarated.github.io/San_Agustin_11_12/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
+      <ResourceURL format="image/jpeg" resourceType="tile" template="http://localhost/tileserver/San_Agustin_11_12/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
     </Layer>
     <TileMatrixSet>
-      <ows:Identifier>z11to19</ows:Identifier>
+      <ows:Identifier>z10to13</ows:Identifier>
       <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
+      <TileMatrix>
+        <ows:Identifier>10</ows:Identifier>
+        <ScaleDenominator>545978.773465544684</ScaleDenominator>
+        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
+        <TileWidth>256</TileWidth>
+        <TileHeight>256</TileHeight>
+        <MatrixWidth>1024</MatrixWidth>
+        <MatrixHeight>1024</MatrixHeight>
+      </TileMatrix>
       <TileMatrix>
         <ows:Identifier>11</ows:Identifier>
         <ScaleDenominator>272989.386732772342</ScaleDenominator>
@@ -68,60 +77,6 @@
         <TileHeight>256</TileHeight>
         <MatrixWidth>8192</MatrixWidth>
         <MatrixHeight>8192</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>14</ows:Identifier>
-        <ScaleDenominator>34123.673341596543</ScaleDenominator>
-        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>16384</MatrixWidth>
-        <MatrixHeight>16384</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>15</ows:Identifier>
-        <ScaleDenominator>17061.836670798271</ScaleDenominator>
-        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>32768</MatrixWidth>
-        <MatrixHeight>32768</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>16</ows:Identifier>
-        <ScaleDenominator>8530.918335399136</ScaleDenominator>
-        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>65536</MatrixWidth>
-        <MatrixHeight>65536</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>17</ows:Identifier>
-        <ScaleDenominator>4265.459167699568</ScaleDenominator>
-        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>131072</MatrixWidth>
-        <MatrixHeight>131072</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>18</ows:Identifier>
-        <ScaleDenominator>2132.729583849784</ScaleDenominator>
-        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>262144</MatrixWidth>
-        <MatrixHeight>262144</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>19</ows:Identifier>
-        <ScaleDenominator>1066.364791924892</ScaleDenominator>
-        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>524288</MatrixWidth>
-        <MatrixHeight>524288</MatrixHeight>
       </TileMatrix>
     </TileMatrixSet>
   </Contents>
